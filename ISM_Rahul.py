@@ -19,7 +19,7 @@ from scipy.linalg import LinAlgWarning
 
 warnings.filterwarnings(action='ignore', category=LinAlgWarning, module='sklearn')
 
-
+print(2)
 
 # @jit(nopython=True)
 def grid_sphere_fib(n_points):
